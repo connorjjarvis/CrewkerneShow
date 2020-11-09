@@ -4,6 +4,9 @@
       <b-container fluid="md" class="text-center">
         <div class="content">
           <Nuxt />
+          <div id="author">
+            <p>Website made by <a href="mailto:connor.jarvis+crewkerneshow@gmail.com">Connor Jarvis</a></p>
+          </div>
         </div>
       </b-container>
   </div>
