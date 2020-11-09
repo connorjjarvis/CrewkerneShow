@@ -72,6 +72,7 @@ body {
   background-position: 50% 0%;
   background-image: url('../assets/backgrounds/navbar.jpg');
   background-color: #7cb88138;
+  background-repeat: no-repeat;
   width:100%;
   height:100%
 }
