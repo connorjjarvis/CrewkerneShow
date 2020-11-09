@@ -1,4 +1,4 @@
-# crewkerneshow
+# Crewkerne Show
 
 ## Build Setup
 
@@ -17,4 +17,6 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Stuff
+
+Using Nuxt, Vue and Javascript

@@ -3,9 +3,9 @@
       <Header />
       <b-container fluid="md" class="text-center">
         <div class="content">
+          <Nuxt />
         </div>
       </b-container>
-      <Nuxt />
   </div>
 </template>
 
@@ -114,7 +114,17 @@ body {
 }
 
 .content {
-  height:600px;
-  background: rgba(140, 140, 140, 0.801);
+  background: linear-gradient(rgba(207, 207, 207, 0.701), rgba(207, 207, 207, 0.9));
+}
+
+h3 {
+  padding-top:25px;
+  padding-bottom:25px;
+  color: #41935a;
+  text-shadow: 1px 1px 0px #1a3823, 2px 1px 0px rgba(0,0,0,0.15);
+}
+
+p {
+  font-size: 1.2rem; 
 }
 </style>
