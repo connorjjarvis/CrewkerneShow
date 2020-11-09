@@ -26,6 +26,24 @@ export default {
   plugins: [
   ],
 
+  purgeCSS: {
+    enabled: ({ isDev, isClient }) => (!isDev && isClient), // or `false` when in dev/debug mode
+    paths: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js'
+    ],
+    styleExtensions: ['.css'],
+    whitelist: ['body', 'html', 'nuxt-progress'],
+    extractors: [
+      {
+        extractor: content => content.match(/[A-z0-9-:\\/]+/g) || [],
+        extensions: ['html', 'vue', 'js']
+      }
+    ]
+  },
+
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
@@ -33,6 +51,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    'nuxt-purgecss',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -40,8 +59,21 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
-
+  bootstrapVue: {
+    componentPlugins: [
+      'LayoutPlugin',
+      'FormPlugin',
+      'NavbarPlugin',
+      'FormCheckboxPlugin',
+      'FormInputPlugin',
+      'FormRadioPlugin',
+      'ToastPlugin',
+      'ModalPlugin'
+    ],
+    directivePlugins: ['VBPopoverPlugin', 'VBTooltipPlugin', 'VBScrollspyPlugin']
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    analyze: false,
   }
 }

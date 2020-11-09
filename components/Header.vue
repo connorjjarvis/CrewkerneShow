@@ -23,7 +23,7 @@ export default {
     padding-top:5px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0,0,0,0.4) 100%), url('../assets/backgrounds/image2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0,0,0,0.4) 100%), url('../assets/backgrounds/image2.webp');
 }
 button#nextDate {
     margin-top:35px;

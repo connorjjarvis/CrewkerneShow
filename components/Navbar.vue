@@ -14,7 +14,7 @@
         <b-nav-item href="/contact">Contact us</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="https://www.lionsclubs.org/en"><img src="../assets/lions.png" /></b-nav-item>
+        <b-nav-item href="https://www.lionsclubs.org/en"><img src="../assets/lions.webp" /></b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

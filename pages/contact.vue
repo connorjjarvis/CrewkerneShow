@@ -8,10 +8,10 @@
     <b-row class="text-center">
     <b-col sm="2" md="3">
 <div id="photos">
-<img src="../assets/imagerotate5.jpg" style="max-height: 150px; max-width: 275px;">
+<img src="../assets/imagerotate5.webp" style="max-height: 150px; max-width: 275px;">
 </div>
 <div id="photos">
-<img src="../assets/imagerotate6.jpg" style="max-height: 150px; max-width: 275px;">
+<img src="../assets/imagerotate6.webp" style="max-height: 150px; max-width: 275px;">
 </div>
     </b-col>
     <b-col sm="8" md="8">
