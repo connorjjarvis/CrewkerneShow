@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Nuxt />
+      <Header />
+      <b-container fluid="md" class="text-center">
+        <div class="content">
+        </div>
+      </b-container>
+      <Nuxt />
   </div>
 </template>
 
@@ -58,5 +63,58 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+body {
+  background-position: 50% 0%;
+  background-image: url('../assets/backgrounds/navbar.jpg');
+  background-color: #7cb88138;
+  width:100%;
+  height:100%
+}
+
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.content {
+  height:600px;
+  background: rgba(140, 140, 140, 0.801);
 }
 </style>
