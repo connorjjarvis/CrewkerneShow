@@ -62,7 +62,7 @@ export default {
   ],
   robots: {
     UserAgent: '*',
-    Disallow: '/'
+    Allow: '/'
   },
   bootstrapVue: {
     componentPlugins: [
@@ -72,6 +72,7 @@ export default {
       'FormCheckboxPlugin',
       'FormInputPlugin',
       'FormRadioPlugin',
+      'ButtonPlugin',
       'ToastPlugin',
       'ModalPlugin'
     ],

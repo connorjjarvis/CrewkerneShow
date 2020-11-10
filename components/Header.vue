@@ -3,7 +3,7 @@
      <Navbar />
      <div class="nextDate">
         <b-button  size="sm" id="nextDate">
-            Next show to be announced!
+            Next Show Date: TBA
         </b-button>
      </div>
 </b-container>
