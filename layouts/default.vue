@@ -1,28 +1,27 @@
 <template>
   <div>
-      <Header />
-      <b-container fluid="md" class="text-center">
-        <div class="content">
-          <Nuxt />
-          <div id="author">
-            <p>Website made by <a href="mailto:connor.jarvis+crewkerneshow@gmail.com">Connor Jarvis</a></p>
-          </div>
+    <Header />
+    <b-container fluid="md" class="text-center">
+      <div class="content">
+        <Nuxt />
+        <div id="author">
+          <p>
+            Website made by
+            <a href="mailto:connor.jarvis+crewkerneshow@gmail.com"
+              >Connor Jarvis</a
+            >
+          </p>
+          <p>Sponsered by <a href="https://low.ms" />LOW.MS</a></p>
         </div>
-      </b-container>
+      </div>
+    </b-container>
   </div>
 </template>
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -70,13 +69,12 @@ html {
 
 body {
   background-position: 50% 0%;
-  background-image: url('../assets/backgrounds/navbar.webp');
+  background-image: url("../assets/backgrounds/navbar.webp");
   background-color: #7cb88138;
   background-repeat: no-repeat;
-  width:100%;
-  height:100%
+  width: 100%;
+  height: 100%;
 }
-
 
 .container {
   margin: 0 auto;
@@ -88,16 +86,8 @@ body {
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -118,17 +108,20 @@ body {
 }
 
 .content {
-  background: linear-gradient(rgba(207, 207, 207, 0.701), rgba(207, 207, 207, 0.9));
+  background: linear-gradient(
+    rgba(207, 207, 207, 0.701),
+    rgba(207, 207, 207, 0.9)
+  );
 }
 
 h3 {
-  padding-top:25px;
-  padding-bottom:25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: #41935a;
-  text-shadow: 1px 1px 0px #1a3823, 2px 1px 0px rgba(0,0,0,0.15);
+  text-shadow: 1px 1px 0px #1a3823, 2px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 p {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 </style>
