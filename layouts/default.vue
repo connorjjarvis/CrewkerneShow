@@ -11,7 +11,7 @@
               >Connor Jarvis</a
             >
           </p>
-          <p>Sponsored by <a href="https://low.ms" />LOW.MS</a></p>
+          <p>Sponsored by <a href="https://low.ms">LOW.MS</a></p>
         </div>
       </div>
     </b-container>
